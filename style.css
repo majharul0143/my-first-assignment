@@ -180,7 +180,59 @@ span{
 .instagram-picture-container img{
     width: 280px;
 }
+/*-------------styling pricing area----------*/
 
+.pricing-section{
+    padding: 100px 0 50px 0;
+}
+.pricing-section h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.pricing-card-container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.pricing-pack-card{
+    border: 1px solid #27272761;
+    width: 300px;
+    height: 410px;
+}
+.regular-pack-card{
+    border: 1px solid #272727;
+    padding: 50px;
+}
+.card-title{
+    background-color: #E55473;
+    color: #FFFFFF;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 25px;
+}
+.card-body{
+    padding: 30px 0 50px 0;  
+}
+.card-body h4{
+    font-size: 35px;
+    text-align: center;
+}
+.card-body p{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 15px;
+}
+.card-body li{
+    margin-left: 25%;
+    line-height: 30px;
+}
+.card-body button{
+    margin: 25px 0 10px 70px;
+}
 /*-----------form design------*/
 .form-section{
     width: 1200px;
