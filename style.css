@@ -54,7 +54,7 @@ header{
     width: 1200px;
     margin: 0 auto;
     text-align: center;
-    padding: 100px 0 150px 0;
+    padding: 100px 0 220px 0;
 }
 .featured-section h2{
     color: #272727;
@@ -112,6 +112,24 @@ header{
     font-size: 20px;
     font-weight: 700;
     text-decoration-line: underline;
+}
+/*          facilities section design   */
+.facilities-section{
+    margin-bottom: 150px;
+}
+.facilities-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    padding: 80px 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+.facilities-card{
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+   
 }
 
 /*    discount section started   */
